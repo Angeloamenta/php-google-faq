@@ -90,18 +90,14 @@ $qea = [
                 echo "<p>" . $value['answer'] . "</p>";
                 
             } else {
-            ?>
-             <?php   
               echo "<h2>" . $value['questions'] . "</h2>";
               echo "<p>" . $value['answer'] . "</p>";
                 foreach($value["domande2"] as $chiave => $valore) { 
-                    echo   $valore ;
-                    
+                    echo   $valore ;   
                 }   
                echo "<h3>" . $value["domande3"]["risposta5"] . "</h3>";
                echo "<p>" . $value["domande3"]["risposta6"] . "</p>";
-            }
-               
+            }             
         }
         ?>
     </main>
