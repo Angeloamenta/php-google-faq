@@ -70,7 +70,7 @@ $qea = [
 <body>
     <header>
         <div class="title">
-           <span>Google</span> <span>Privacy e termini</span>
+           <img src="https://loghi-famosi.com/wp-content/uploads/2020/09/Google-Logo.png" alt=""> <span>Privacy e termini</span>
         </div>
         <ul>
                 <li><a href="">Introduzione</a></li>
