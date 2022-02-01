@@ -62,14 +62,26 @@ header li a{
 main {
     width: 70%;
     margin: 0 auto;
+    margin-top: 120px;
+    font-size: .9em;
+    line-height: 25px;
 }
 
+main br {
+    margin-bottom: 15px;
+}
+
+main a {
+    color: blue;
+}
 main h2 {
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 main h3 {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 main li {
@@ -79,5 +91,55 @@ main li {
 }
 
 footer {
-    background-color: ;
+    margin-top: 20px;
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 40px;
+}
+
+.footer-container {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer-sx {
+    width: 50%;
+}
+
+.footer-sx ul {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 0.7em;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.footer-sx a {
+    text-decoration: none;
+    color: gray;
+}
+
+.point::before {
+    content: "\00B7";
+    margin-right: 7px;
+}
+
+.footer-dx {
+    width: 50%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.footer-dx label {
+    display: flex;
+}
+.footer-dx select {
+    width: 30%;
+    margin-left: 8px;
 }
